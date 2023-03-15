@@ -2,7 +2,7 @@
 
 % This folder contains a part of the code that I used for the analysis of my Bachelor End Project. I included the useful code, and left out some that are too specific, too general or only used for figures.
 
-% The important comments are in the code itself, but here are the general descriptions:
+% The important comments are in the code itself, but here are the general descriptions:     
 % - change_axis outputs vectors with the direction of movements of all tracked body parts relative to the direction of the body axis. As an input it takes vectors of all x- and y-coordinates of all tracked body parts.
 
 % - select_period outputs a structure with a matrix per ROI where the mouse moves. Every matrix is a 5xN matrix, where N is the amount of frames in this ROI. The columns consist of the frame number and the velocities of the left front paw, right front paw, left back paw and right back paw respectively. As an input it takes the absolute velocities of all paws and a vector with the time of each frame.
